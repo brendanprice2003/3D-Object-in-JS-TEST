@@ -14,5 +14,5 @@ To build the solution: `npm run build`
 2. All the code can be found in `./build`
 3. You must use a server to host the code, either on localhost or however you want to, to avoid CORS policies conflicting. This is a stupid browser restriction that is a pain to get around. Just make sure you host the code on something like xampp or live server extension for VSC.
 
-**Note:** Contents of `./src` will not run in the browser, without a NodeJS environment. Refer to `./build` instead.
+**Note:** Contents of `./src` will not run in the browser, without a NodeJS environment. Use to `./build` instead.
 <br>[Learn More About Bundlers Here](https://www.snowpack.dev/concepts/how-snowpack-works)
