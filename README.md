@@ -11,7 +11,7 @@ To build the solution: `npm run build`
 
 ## If you are just looking at the code:
 1. Clone this repo
-2. All the code can be found in `./build`*
+2. All the code can be found in `./build`
 
 **Note:** Contents of `./src` will not run in the browser, without a NodeJS environment. Refer to `./build` instead.
 <br>[Learn More About Bundlers Here](https://www.snowpack.dev/concepts/how-snowpack-works)
