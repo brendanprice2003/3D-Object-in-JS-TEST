@@ -29,7 +29,7 @@ let camera = new THREE.PerspectiveCamera(lense.fov, lense.aspect, lense.near, le
 
 // Load stuff
 let loader = new GLTFLoader();
-loader.load('src/models/iphone/scene.gltf', (gltf) => {
+loader.load('./models/iphone/scene.gltf', (gltf) => {
 
     scene.add(gltf.scene);
 
