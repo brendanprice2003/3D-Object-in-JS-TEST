@@ -6,7 +6,7 @@ Showcase that uses an [ObjectLoader](https://threejs.org/docs/#api/en/loaders/Ob
 1. Clone this repo
 2. CD into the directory and run `npm i`
 
-To run the development environment: `npm run dev`
+To run the development environment: `npm run dev`<br>
 To build the solution: `npm run build`
 
 ## If you are just looking at the code:
