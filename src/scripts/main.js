@@ -27,15 +27,18 @@ let lense = {
     };
 let camera = new THREE.PerspectiveCamera(lense.fov, lense.aspect, lense.near, lense.far);
 
-// Load stuff
+// Do stuff idk LOL
 let loader = new GLTFLoader();
 loader.load('./models/iphone/scene.gltf', (gltf) => {
-
     scene.add(gltf.scene);
-
-}, undefined, (err) => {
+}, (xhr) => {
+    log(xhr);
+}, (err) => {
     console.error(err);
 });
+
+// This is the above method but (empty) in a single line
+loader.load('', function() {}, function() {}, function() {});
 
 // Add point lights
 let pointLight = new THREE.PointLight(0xFFFFFF,1,100);
